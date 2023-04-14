@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.background1{
+    background-color: lightgrey;
+}
+
+input{
+    width: 30%;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box1{
+    width: 750px;
+    height: 85px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    padding-top: 15px;
+}
+.box2{
+    width: 400px;
+    height: 85px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    padding-top: 15px;
+}
+.box3{
+    width: 780px;
+    height: 90px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    padding-top: 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+
